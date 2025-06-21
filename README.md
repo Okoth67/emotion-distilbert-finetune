@@ -15,7 +15,7 @@ This project demonstrates how to fine-tune the `distilbert-base-uncased` transfo
 
 | File / Folder              | Description                                  |
 |---------------------------|----------------------------------------------|
-| `emotion_classification.ipynb` | Notebook containing data loading, preprocessing, model training, and evaluation |
+| `fine_tune_distilbert_emotion_classification.ipynb` | Notebook containing data loading, preprocessing, model training, and evaluation |
 | `emotion-distilbert-model/`    | Directory containing the saved fine-tuned model |
 | `requirements.txt`             | Python dependencies                        |
 | `README.md`                    | Project description (this file)            |
