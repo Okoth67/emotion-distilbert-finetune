@@ -16,9 +16,7 @@ This project demonstrates how to fine-tune the `distilbert-base-uncased` transfo
 | File / Folder              | Description                                  |
 |---------------------------|----------------------------------------------|
 | `fine_tune_distilbert_emotion_classification.ipynb` | Notebook containing data loading, preprocessing, model training, and evaluation |
-| `emotion-distilbert-model/`    | Directory containing the saved fine-tuned model |
-| `requirements.txt`             | Python dependencies                        |
-| `README.md`                    | Project description (this file)            |
+| `distilbert_emotion_inference_and_eval.ipynb`    | Loads the fine-tuned model and runs inference using a Gradio UI.|
 
 ---
 
@@ -42,17 +40,11 @@ This project demonstrates how to fine-tune the `distilbert-base-uncased` transfo
 
 ---
 
-## 🛠 How to Use
+## 🏋️ Fine-Tuning Summary
 
-1. Clone the repository
-2. Install required packages:
-    ```bash
-    pip install -r requirements.txt
-    ```
-3. Launch the notebook and follow along:
-    ```bash
-    jupyter notebook emotion_classification.ipynb
-    ```
+- Trained for 3 epochs
+- Final training loss: ~0.13
+- Saved final model and tokenizer to `./emotion-distilbert`
 
 ---
 
